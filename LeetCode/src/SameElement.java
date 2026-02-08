@@ -10,6 +10,7 @@ public class SameElement {
         }
         int ans = sameElement(n,arr);
         System.out.println(ans);
+        sc.close();
     }
     public static int sameElement(int n, int[] arr){
         int high = arr[0];

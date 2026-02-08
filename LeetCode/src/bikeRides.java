@@ -36,5 +36,6 @@ public class bikeRides {
         // Call user logic function and print the output
         int result = goodSum(N, A);
         System.out.println(result);
+        sc.close();
     }
 }

@@ -6,6 +6,7 @@ public class ValidBinaryString {
         int n = sc.nextInt();
         int ans = validString(n);
         System.out.println(ans);
+        sc.close();
     }
     public static int validString(int n){
         if(n == 0){

@@ -34,5 +34,6 @@ public class reverseString {
         String result = transformString(s, ch);
 //        String result = reverse(s)
         System.out.println(result);
+        scanner.close();
     }
 }

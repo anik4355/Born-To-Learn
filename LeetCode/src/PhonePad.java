@@ -19,7 +19,7 @@ public class PhonePad {
         list.put('7',"pqrs");
         list.put('8',"tuv");
         list.put('9',"wxyz");
-        StringBuilder sb = new StringBuilder();
+        // StringBuilder sb = new StringBuilder();
 //        for(int i = 0; i<digits.length();i++){
 //            sb.append(list.get(digits.charAt(i)));
 //        }

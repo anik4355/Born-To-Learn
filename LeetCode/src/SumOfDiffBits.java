@@ -1,6 +1,6 @@
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+// import java.util.HashSet;
+// import java.util.Scanner;
+// import java.util.Set;
 
 public class SumOfDiffBits {
     public static long compareBits(String a, String b) {
@@ -23,7 +23,7 @@ public class SumOfDiffBits {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 //        String a = scanner.next();
 //        String b = scanner.next();
 //        System.out.println(compareBits(a, b));

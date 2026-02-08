@@ -1,4 +1,4 @@
-import java.util.Objects;
+// import java.util.Objects;
 import java.util.Stack;
 import java.util.Scanner;
 public class BasketBall {
@@ -50,5 +50,6 @@ public class BasketBall {
         // Call user logic function and print the output
         int result = userLogic(ops);
         System.out.println(result);
+        scanner.close();
     }
 }
