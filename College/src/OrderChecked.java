@@ -11,6 +11,7 @@ public class OrderChecked {
         }
         int ans = indexMiss(arr);
         System.out.println(ans);
+        sc.close();
     }
     public static int indexMiss(int[] arr){
         int[] newArr = new int[arr.length];

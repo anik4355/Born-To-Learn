@@ -1,4 +1,4 @@
-import java.lang.reflect.Array;
+// import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,6 +17,7 @@ public class MaximumToys {
         int bud = sc.nextInt();
         int ans1 = maximumNumber(arr,bud);
         System.out.println("Ans1 is : " + ans1);
+        sc.close();
 
     }
     public static int maximumNumber(int[] arr, int bud){   // Same equal to the bud
