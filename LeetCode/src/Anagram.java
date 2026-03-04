@@ -11,14 +11,11 @@ public class Anagram {
         char[] arr_t = t.toCharArray();
         for(char c : arr_t){
             if(map.containsKey(c)){
-                System.out.println(c);
-                System.out.println(map.get(c));
-                
                 map.put(c,map.get(c) -1);
                 if(map.get(c) == 0){
                     map.remove(c);
                 }
-                System.out.println(map.get(c));
+                
             }else{
                 return false;
             }
