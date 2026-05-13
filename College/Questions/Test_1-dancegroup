@@ -1,0 +1,25 @@
+1. You have a row of students, each either a girl ('x') or a boy ('y'). Students standing next to each other are friends.
+You need to form as many dance pairs as possible, where each pair consists of one boy and one girl who are friends. Each
+student can only be in one pair.
+Example 1:
+Input: xy
+Students: Girl (&#39;x&#39;) and Boy (&#39;y&#39;) standing next to each other.
+Possible pairs: (Girl, Boy)
+Output: 1 (only one pair can be formed)
+Example 2:
+Input: xyxxy
+Students: Girl (&#39;x&#39;), Boy (&#39;y&#39;), Girl (&#39;x&#39;), Girl (&#39;x&#39;), Boy (&#39;y&#39;)
+Possible pairs: (Girl 1, Boy 2) and (Girl 4, Boy 5)
+Or (Boy 2, Girl 3) and (Girl 4, Boy 5)
+Output: 2 (two pairs can be formed)
+The goal is to find the maximum number of such pairs for any given string of students.**
+Sample 1:
+Input
+3
+xy
+xyxxy
+yy
+Output
+1
+2
+0
