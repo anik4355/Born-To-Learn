@@ -8,9 +8,9 @@ public class HCF {
 
     }
     public static int hcfCal(int a, int b){
-        if(b == 1){
+        if(b ==0){
             return a;
         }
-        return hcfCal(b, a/b);
+        return hcfCal(b, a%b);
     }
 }
